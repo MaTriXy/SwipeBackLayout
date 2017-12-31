@@ -1,21 +1,17 @@
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.12.+'
+        classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7'
     }
 }
 
 allprojects {
-    group = 'me.imid.swipebacklayout'
-    version = '1.0.0-SNAPSHOT'
-
     repositories {
-        mavenCentral()
-    }
-
-    tasks.withType(Compile) {
-        options.encoding = "UTF-8"
+        google()
     }
 }
