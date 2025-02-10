@@ -80,6 +80,12 @@ compile 'me.imid.swipebacklayout.lib:library:1.1.0'
 ```
 
 
+Support
+===
+<img src="https://github.com/ikew0ng/SwipeBackLayout/blob/master/art/support.jpeg" width="300">
+
+
+
 Pull Requests
 ===
 I will gladly accept pull requests for fixes and feature enhancements but please do them in the develop branch.
